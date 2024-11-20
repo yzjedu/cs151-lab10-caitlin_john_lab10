@@ -25,11 +25,12 @@ Lab Assignment:  10
 
 1. Create a table
 2. Try:
-   1. For line in file:
-      1. Split lines with commas
-      2. Convert rows 2, 3, and 4 into integers
-      3. Add row to table list via append()
-   2. Close file
+   1. open file for reading
+         1. For line in file:
+            1. Split lines with commas
+            2. Convert rows 2, 3, and 4 into integers
+            3. Add row to table list via append()
+         2. Close file
 3. If file is not found output error
 4. Return table
 
@@ -39,12 +40,24 @@ Lab Assignment:  10
 - Name: calculate_profit
 - Parameters: table
 - Return: none
-
-1. For each row in table:
+1. set new table to empty list
+2. For each row in table:
    1. Budget is set to row 2
    2. Gross is set to row 3 + row 4
    3. Profit = gross - budget
    4. Add profit to row
+   5. append new table to row
+3. return new t
+
+- purpose: finds most profitable movie in file
+- name: max profit
+- parameters: table
+- return: most profit
+1. set most profit equal to table index zero
+2. for row in table
+   1. if row index 5 is greater than most profit index 5
+      1. set most profit equal to row
+3. return most profit
 
    
 
@@ -56,11 +69,10 @@ Lab Assignment:  10
 1. Get user input for name of output file
 2. fd = open an out_file, 'w' for writing
 3. For each row in table:
-   1. Convert row to string via map(str, row)
-   2. Add a new line (/n) to line
-   3. For item in row:
-      1. Add a str(item), followed by ' '
-   4. Write line of fd
+   1. set line equal to empty string
+   2. For item in row:
+      1. line += str item plus empty string
+   3. write line plus a new line
 
 
 
@@ -73,8 +85,15 @@ Lab Assignment:  10
 2. Selection = file_name()
 3. Table is set to read file of selection
 4. Run calculate_profit with table parameter
-5. Run table_to_file with table parameter
+5. Run table_to_file with table profit parameter
 6. Output file creation success
+7. Ask user if they would like to see the movie with the most profit and set answer equal to choice variable
+8. convert answer to lower
+9. if choice is equal to 'y'
+   1. call max profit function by setting it equal to most profit using table profit parameter
+   2. output the name of the movie with the most profit using a f string printing most profit index 1
+10. else
+    1. output thank you message
 
 -----
 

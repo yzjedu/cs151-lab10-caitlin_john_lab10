@@ -44,11 +44,26 @@ def read_file(selection):
 # Parameters: table
 # Return: none
 def calculate_profit(table):
+    new_t = []
     for row in table:
         budget = row[2]
         gross = row[3] + row[4]
         profit = gross - budget
         row.append(profit)
+        new_t.append(row)
+
+    return new_t
+
+# Purpose: finds most profitable movie in the file
+# Parameters: table
+# Return: most_profit
+def max_profit(table):
+    most_profit = table[0]
+    for row in table:
+        if row[5] > most_profit[5]:
+            most_profit = row
+    return most_profit
+
 
 
 # Purpose: converts table to file
@@ -58,11 +73,10 @@ def table_to_file(table):
     out_file = input('what would you like to name the output file?: ')
     fd = open(out_file, 'w')
     for row in table:
-        line = ','.join(map(str, row))
-        line += '\n'
+        line = ''
         for item in row:
-            line += str(item) + ' '
-        fd.write(line)
+            line += str(item) + ' , '
+        fd.write(line + '\n')
 
 
 # Purpose: runs main program
@@ -72,9 +86,16 @@ def main():
     print('This program stores the information from a selected file as a list and outputs a new \nfile with an added profit row.')
     selection = file_name()
     table = read_file(selection)
-    calculate_profit(table)
-    table_to_file(table)
-    print('File created. Thank you for using this program!')
+    table_profit = calculate_profit(table)
+    table_to_file(table_profit)
+    print('File created.')
+    choice = input('Would you like to find the movie with the most profit?(y/n): ')
+    choice = choice.lower()
+    if choice == 'y':
+        most_profit = max_profit(table_profit)
+        print(f'The movie with the most profit is {most_profit[1]}')
+    else:
+        print('Thank you for using!')
 
 
 
