@@ -1,15 +1,14 @@
-ENCRYPTED:
-# Vijpigxmsr Hsgyqirx
+# Reflection Document
 
-* Hvmzi Jypp Reqi  : Nslr Ipilaerc
-* Tevxriv Jypp Reqi: Gemxpmr Fyvrw
-* Wxyhirx MH: 1934007
+* Drive Full Name  : John Elehwany
+* Partner Full Name: Caitlin Burns
+* Student ID: 1934007
 
-Xlmw ewwmkrqirx aew hmjjmgypx xs yrhivwxerh ex jmvwx fyx mx izirxyeppc xsso wleti. M irnscih xlmw tvsnigx erh xli
-ria xlmrkw M pievrih amxl mx. Xvcmrk xs yrhivwxerh e psx sj xli xefpi stivexmsrw tswwmfpi mr Tcxlsr aivi hmjjmgypx xs
-yrhivwxerh xli jmvwx xmqi evsyrh. M ywih wsqi ibxivrep viwsyvgiw pmoi Tcxlsr.svk. Er ibeqtpi sj xlmw aew qi rsx yrhivwxerhmrk
-xlex .ettirh() mw ywih jsv ehhmrk xs e vsa. Ersxliv mwwyi aew xvcmrk xs jmkyvi syx alex jyrgxmsr asyph lezi xs gsqi jmvwx
-mr xlmw wgirevms; mx viuymvih e psx qsvi tvi-tperrmrk xler ai ibtigxih.
+This assignment was difficult to understand at first but it eventually took shape. I enjoyed this project and the
+new things I learned with it. Trying to understand a lot of the table operations possible in Python were difficult to
+understand the first time around. I used some external resources like Python.org. An example of this was me not understanding
+that .append() is used for adding to a row. Another issue was trying to figure out what function would have to come first
+in this scenario; it required a lot more pre-planning than we expected.
 
-Gemxpmr lew fiir e asrhivjyp tevxriv xlvsyklsyx xlmw erh M eq kpeh xs lezi hsri xlmw pef tvsnigx. M lsti xs srgi ekemr
-ywi xli mrjsvqexmsr M lezi pievrih livi mr xli jsviwiiefpi jyxyvi. 
+Caitlin has been a wonderful partner throughout this and I am glad to have done this lab project. I hope to once again
+use the information I have learned here in the foreseeable future. 

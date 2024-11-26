@@ -1,8 +1,7 @@
-ENCRYPTED:
-# Nabhaypekj Zkyqiajp
+# Reflection Document
 
-* Znera Bqhh Jwia  : Ywephej Xqnjo
-* Lwnpjan Bqhh Jwia: Fkdj Ahadswju
-* Opqzajp EZ: 1903398
+* Drive Full Name  : Caitlin Burns
+* Partner Full Name: John Elehwany
+* Student ID: 1903398
 
-- pda kxfaypera kb pdeo hwx swo pk lnwypeya nawzejc wjz snepejc kj behao qoejc bqjypekjo. Pda opalo sa bkhhksaz ej pdeo hwx sana ynawpejc wj whcknepdi, snepejc pda ykza, wjz iwgejc oqna pda ykza nwj lnklanhu. Pda gau ykjyalp atlhknaz ej pdeo hwxs wo snepejc ejbkniwpekj wjz pwxhao ejpk w jas kqplqp beha. Kqn naoqhpo zez iwpyd sdwp sa atlaypaz pk cap sdaj sa opwnpaz pdeo hwx. Pda iwej lnkxhai sa ajykqjpanaz swo becqnejc kqp pda olayebeyo kb snepejc pk jas behao, xqp sa okhraz pdwp xu hkkgejc wp pda yhwoo jkpao. E zk pdejg E hawnjaz sdwp E swo oqllkoaz pk hawnj bkn pdeo hwx xaywqoa jks E qjzanopwjz snepjc kj behao ikna pdwj E zez xabkna. E hegaz skngejc sepd iu lwnpjan xaywqoa sa skngaz sahh pkcapdan.
+- the objective of this lab was to practice reading and writing on files using functions. The steps we followed in this lab were creating an algorithm, writing the code, and making sure the code ran properly. The key concept explored in this labw as writing information and tables into a new output file. Our results did match what we expected to get when we started this lab. The main problem we encountered was figuring out the specifics of writing to new files, but we solved that by looking at the class notes. I do think I learned what I was supposed to learn for this lab because now I understand writng on files more than I did before. I liked working with my partner because we worked well together.
